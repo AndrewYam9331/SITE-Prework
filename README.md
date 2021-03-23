@@ -38,8 +38,6 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/79959750/112154144-5c152680-8bba-11eb-8721-70b14ae276ca.gif)
 
 
