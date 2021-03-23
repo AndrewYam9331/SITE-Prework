@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Game</h1>
+    
+    <p>
+      Welcome to the game!
+    </p>
+    <p id="timer">
+      Timer
+    </p>
+    
+
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F426888__thisusernameis__beep4.wav?v=1616472937738" id="Audio1"></audio>
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F220191__gameaudio__space-swoosh-brighter.wav?v=1616472943426" id="Audio2"></audio>
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F215415__unfa__ping.flac?v=1616472949279" id="Audio3"></audio>
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F213795__austin1234575__beep-1-sec.wav?v=1616472955715" id="Audio4"></audio>
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F403008__inspectorj__ui-confirmation-alert-a1.wav?v=1616472961215" id="Audio5"></audio>
+    <audio src="https://cdn.glitch.com/96eae12d-b41c-4c67-903d-1563eadb30a7%2F153213__freezeman__beep1.wav?v=1616472978249" id="Audio6"></audio>
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
