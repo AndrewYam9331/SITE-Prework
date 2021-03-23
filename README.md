@@ -1,5 +1,4 @@
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/79959750/112154054-499aed00-8bba-11eb-8961-b31ae1e270fa.gif)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/79959750/112154071-4d2e7400-8bba-11eb-9ab7-afbe9e8f87d5.gif)
+
 # Pre-work - *Memory Game*
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
